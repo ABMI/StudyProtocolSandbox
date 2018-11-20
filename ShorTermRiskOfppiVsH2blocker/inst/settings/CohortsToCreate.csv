@@ -1,0 +1,8 @@
+atlasId,atlasName,cohortId,name
+728,[PPIvH2RA:T] PPI users more than 14 days for GERD,728,PPIvH2RAT_PPI_users_more_than_14_days_for_GERD
+729,[PPIvH2RA:C] H2RA users users more than 14 days,729,PPIvH2RAC_H2RA_users_users_more_than_14_days
+730,[PPIvH2RA:O] Pneumonia,730,PPIvH2RAO_Pneumonia
+731,[PPIvH2RA:O] Bacterial pneumonia,731,PPIvH2RAO_Bacterial_pneumonia
+734,[PPIvH2RA:O] Clostridium difficile infection,734,PPIvH2RAO_Clostridium_difficile_infection
+751,[PPIvH2RA:O] Food poisoning,751,PPIvH2RAO_Food_poisoning
+1029,SCYou: GI bleeding,1029,SCYou_GI_bleeding
