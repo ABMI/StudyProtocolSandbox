@@ -1,0 +1,1500 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21603933,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "M01A",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "ANTIINFLAMMATORY AND ANTIRHEUMATIC PRODUCTS, NON-STEROIDS",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 3rd",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1112807,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1191",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Aspirin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Oral NSAIDs",
+      "id": 0
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600095,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A02BC",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "Proton pump inhibitors",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19039926,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "816346",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dexlansoprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 948078,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "40790",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pantoprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 929887,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "17128",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lansoprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 923645,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7646",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Omeprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 904453,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "283742",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "Esomeprazole",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "PPI",
+      "id": 1
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600081,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A02BA",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "H2-receptor antagonists",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 4th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21600086,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "A02BA05",
+            "VOCABULARY_ID": "ATC",
+            "CONCEPT_NAME": "niperotidine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "ATC 5th",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19011685,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "114817",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "roxatidine",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "H2RA",
+      "id": 2
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 21603090,
+          "STANDARD_CONCEPT": "C",
+          "CONCEPT_CODE": "J04A",
+          "VOCABULARY_ID": "ATC",
+          "CONCEPT_NAME": "DRUGS FOR TREATMENT OF TUBERCULOSIS",
+          "DOMAIN_ID": "Drug",
+          "STANDARD_CONCEPT_CAPTION": "Classification",
+          "CONCEPT_CLASS_ID": "ATC 3rd",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "tuberculosis",
+      "id": 3
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4025165,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "196112005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Abscess of lung with pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 254677,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41207000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Adenoviral pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 436339,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "186435004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bacterial infection due to Klebsiella pneumoniae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 257315,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "53084003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bacterial pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 256722,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "396285007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bronchopneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4110510,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195911009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chickenpox pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 254066,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233609002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chlamydial pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 255084,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "78895009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congenital pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4071610,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "206283000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congenital staphylococcal pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 252949,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7678002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cytomegaloviral pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4049965,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233613009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fungal pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 252655,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195886008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Group B streptococcal pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 260754,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "70036007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Haemophilus influenzae pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4310964,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "85469005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hypostatic pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4231983,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "406595002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Infection due to Mycoplasma pneumoniae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443410,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "312342009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Infective pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Invalid",
+            "CONCEPT_ID": 312664,
+            "STANDARD_CONCEPT": "N",
+            "CONCEPT_CODE": "63039003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Influenza with respiratory manifestation other than pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "D"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4133224,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "278516003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Lobar pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 440431,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "46970008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Mycoplasma pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3021082,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "21406-4",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "Mycoplasma pneumoniae IgM Ab [Presence] in Serum",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Lab Test",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 439857,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "64917006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Parainfluenza virus pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 255848,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233604007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 256723,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195878008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia and influenza",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 260430,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "51530003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to Escherichia coli",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 258180,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "430395005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to Gram negative bacteria",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 253790,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "64479007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to Klebsiella pneumoniae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4050872,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233620002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to parasitic infestation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 252351,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41381004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to Pseudomonas",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 436145,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195881003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to respiratory syncytial virus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 261324,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "34020007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to Streptococcus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 260028,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "191727003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Post measles pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40489912,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "448421008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Sepsis due to Streptococcus pneumoniae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 259852,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "22754005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Staphylococcal pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 261326,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "75570004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Viral pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Pneumonia",
+      "id": 4
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443392,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "363346000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Malignant neoplastic disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": true,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36603421,
+            "STANDARD_CONCEPT": "C",
+            "CONCEPT_CODE": "10040901",
+            "VOCABULARY_ID": "MedDRA",
+            "CONCEPT_NAME": "Skin neoplasms malignant and unspecified (excl melanoma)",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Classification",
+            "CONCEPT_CLASS_ID": "HLT",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Malignant neoplastic disease",
+      "id": 5
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 262,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "ERIP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9201,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "IP",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Inpatient Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 9203,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "ER",
+            "VOCABULARY_ID": "Visit",
+            "CONCEPT_NAME": "Emergency Room Visit",
+            "DOMAIN_ID": "Visit",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Visit",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "Inpatient or ED",
+      "id": 6
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 192671,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "74474003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Gastrointestinal hemorrhage",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 26727,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "8765009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hematemesis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 201129,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "23688003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hematemesis AND/OR melena due to swallowed maternal blood",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443530,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "405729008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hematochezia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4103703,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2901004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Melena",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "GI bleeding",
+      "id": 9
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 318800,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "235595009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Gastroesophageal reflux disease",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 30437,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "266433003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Gastro-esophageal reflux disease with esophagitis",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "GERD",
+      "id": 10
+    }
+  ],
+  "EndStrategy": {"CustomEra": {
+    "DrugCodesetId": 1,
+    "GapDays": 30,
+    "Offset": 0
+  }},
+  "CensoringCriteria": [{"DrugExposure": {
+    "OccurrenceEndDate": null,
+    "CorrelatedCriteria": null,
+    "DrugSourceConcept": null,
+    "CodesetId": 2,
+    "DrugTypeExclude": false,
+    "Quantity": null,
+    "DrugType": null,
+    "ProviderSpecialty": null,
+    "EffectiveDrugDose": null,
+    "Gender": null,
+    "DaysSupply": null,
+    "DoseUnit": null,
+    "VisitType": null,
+    "Refills": null,
+    "First": null,
+    "OccurrenceStartDate": null,
+    "RouteConcept": null,
+    "StopReason": null,
+    "LotNumber": null,
+    "Age": null
+  }}],
+  "Title": null,
+  "AdditionalCriteria": null,
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 60,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 30,
+              "Coeff": 1
+            },
+            "UseIndexEnd": null
+          },
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "DrugSourceConcept": null,
+            "CodesetId": 2,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Without H2 blocker use preceding 2 months",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 60,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": null
+          },
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "DrugSourceConcept": null,
+            "CodesetId": 1,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Without PPI use preceding 2 months",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 30,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": null
+          },
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 10,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Prior GERD within 30 days before index",
+      "description": "Prior GERD within 30 days before index"
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 0,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": null
+          },
+          "EndWindow": null,
+          "Criteria": {"VisitOccurrence": {
+            "OccurrenceEndDate": null,
+            "VisitLength": null,
+            "CorrelatedCriteria": null,
+            "VisitSourceConcept": null,
+            "CodesetId": 6,
+            "VisitTypeExclude": false,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "PlaceOfService": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Without hospitalization on the same day",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 365,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": null
+          },
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 5,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Without malignancy within a year",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": null
+          },
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "DrugSourceConcept": null,
+            "CodesetId": 3,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Without tuberculosis previously",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 365,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": null
+          },
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 4,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Without pneumonia within a year",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": 365,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 0,
+              "Coeff": 1
+            },
+            "UseIndexEnd": null
+          },
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 9,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "Without GI bleeding within preceding one year",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"DrugEra": {
+      "EraStartDate": null,
+      "CorrelatedCriteria": null,
+      "OccurrenceCount": null,
+      "AgeAtStart": {
+        "Op": "gte",
+        "Extent": null,
+        "Value": 40
+      },
+      "GapDays": null,
+      "CodesetId": 1,
+      "AgeAtEnd": null,
+      "First": null,
+      "Gender": null,
+      "EraLength": {
+        "Op": "gte",
+        "Extent": null,
+        "Value": 14
+      },
+      "EraEndDate": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 365
+    }
+  }
+}

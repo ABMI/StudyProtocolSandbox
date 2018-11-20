@@ -1,0 +1,646 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": null,
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4025165,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "196112005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Abscess of lung with pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 254677,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41207000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Adenoviral pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 436339,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "186435004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bacterial infection due to Klebsiella pneumoniae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 257315,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "53084003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bacterial pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 256722,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "396285007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Bronchopneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4110510,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195911009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chickenpox pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 254066,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233609002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Chlamydial pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 255084,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "78895009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congenital pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4071610,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "206283000",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Congenital staphylococcal pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 252949,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7678002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Cytomegaloviral pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4049965,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233613009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Fungal pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 252655,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195886008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Group B streptococcal pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 260754,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "70036007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Haemophilus influenzae pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4310964,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "85469005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Hypostatic pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4231983,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "406595002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Infection due to Mycoplasma pneumoniae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 443410,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "312342009",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Infective pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 312664,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "63039003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Influenza with respiratory manifestation other than pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4133224,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "278516003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Lobar pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 440431,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "46970008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Mycoplasma pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 3021082,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "21406-4",
+            "VOCABULARY_ID": "LOINC",
+            "CONCEPT_NAME": "Mycoplasma pneumoniae IgM Ab [Presence] in Serum",
+            "DOMAIN_ID": "Measurement",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Lab Test",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 439857,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "64917006",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Parainfluenza virus pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 255848,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233604007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 256723,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195878008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia and influenza",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 260430,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "51530003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to Escherichia coli",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 258180,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "430395005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to Gram negative bacteria",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 253790,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "64479007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to Klebsiella pneumoniae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4050872,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "233620002",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to parasitic infestation",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 252351,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41381004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to Pseudomonas",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 436145,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195881003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to respiratory syncytial virus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 261324,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "34020007",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Pneumonia due to Streptococcus",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 260028,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "191727003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Post measles pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40489912,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "448421008",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Sepsis due to Streptococcus pneumoniae",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 259852,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "22754005",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Staphylococcal pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 261326,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "75570004",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Viral pneumonia",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "Pneumonia",
+      "id": 0
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 193688,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "186431008",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Clostridium difficile infection",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "Clostridium difficile infection",
+      "id": 1
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 14
+  }},
+  "CensoringCriteria": [],
+  "Title": null,
+  "AdditionalCriteria": null,
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 1,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "StopReason": null,
+      "Age": null
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

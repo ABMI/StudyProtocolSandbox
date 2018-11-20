@@ -41,7 +41,7 @@
 createCohorts <- function(connectionDetails,
                           cdmDatabaseSchema,
                           cohortDatabaseSchema,
-                          cohortTable,
+                          cohortTable = "cohort",
                           oracleTempSchema,
                           outputFolder) {
   if (!file.exists(outputFolder))
@@ -59,8 +59,9 @@ createCohorts <- function(connectionDetails,
   pathToCsv <- system.file("settings", "NegativeControls.csv", package = "PneumoniaRiskOfPPI")
   negativeControls <- read.csv(pathToCsv)
   
-  OhdsiRTools::logInfo("Creating negative control outcome cohorts")
-  negativeControlOutcomes <- negativeControls[negativeControls$type == "Outcome", ]
+  ParallelLogger::logInfo("Creating negative control outcome cohorts")
+  # Currently assuming all negative controls are outcome controls
+  negativeControlOutcomes <- negativeControls
   sql <- SqlRender::loadRenderTranslateSql("NegativeControlOutcomes.sql",
                                            "PneumoniaRiskOfPPI",
                                            dbms = connectionDetails$dbms,
@@ -72,7 +73,7 @@ createCohorts <- function(connectionDetails,
   DatabaseConnector::executeSql(conn, sql)
   
   # Check number of subjects per cohort:
-  OhdsiRTools::logInfo("Counting cohorts")
+  ParallelLogger::logInfo("Counting cohorts")
   sql <- SqlRender::loadRenderTranslateSql("GetCounts.sql",
                                            "PneumoniaRiskOfPPI",
                                            dbms = connectionDetails$dbms,
@@ -94,13 +95,9 @@ addCohortNames <- function(data, IdColumnName = "cohortDefinitionId", nameColumn
   pathToCsv <- system.file("settings", "NegativeControls.csv", package = "PneumoniaRiskOfPPI")
   negativeControls <- read.csv(pathToCsv)
   
-  idToName <- data.frame(cohortId = c(cohortsToCreate$cohortId, 
-                                      negativeControls$targetId,
-                                      negativeControls$comparatorId,
+  idToName <- data.frame(cohortId = c(cohortsToCreate$cohortId,
                                       negativeControls$outcomeId),
-                         cohortName = c(as.character(cohortsToCreate$name), 
-                                        as.character(negativeControls$targetName),
-                                        as.character(negativeControls$comparatorName),
+                         cohortName = c(as.character(cohortsToCreate$atlasName),
                                         as.character(negativeControls$outcomeName)))
   idToName <- idToName[order(idToName$cohortId), ]
   idToName <- idToName[!duplicated(idToName$cohortId), ]

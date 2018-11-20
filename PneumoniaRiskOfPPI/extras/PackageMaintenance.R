@@ -1,6 +1,6 @@
 # Copyright 2018 Observational Health Data Sciences and Informatics
 #
-# This file is part of PneumoniaRiskOfPPI.
+# This file is part of PneumoniaRiskOfPPI
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -23,9 +23,15 @@ OhdsiRTools::updateCopyrightYearFolder()
 shell("rm extras/PneumoniaRiskOfPPI.pdf")
 shell("R CMD Rd2pdf ./ --output=extras/PneumoniaRiskOfPPI.pdf")
 
-# Create vignette ---------------------------------------------------------
+# Create vignettes ---------------------------------------------------------
 rmarkdown::render("vignettes/UsingSkeletonPackage.Rmd",
-                  output_file = "../inst/doc/UsingPneumoniaRiskOfPPI..pdf",
+                  output_file = "../inst/doc/UsingSkeletonPackage.pdf",
+                  rmarkdown::pdf_document(latex_engine = "pdflatex",
+                                          toc = TRUE,
+                                          number_sections = TRUE))
+
+rmarkdown::render("vignettes/DataModel.Rmd",
+                  output_file = "../inst/doc/DataModel.pdf",
                   rmarkdown::pdf_document(latex_engine = "pdflatex",
                                           toc = TRUE,
                                           number_sections = TRUE))
@@ -41,6 +47,7 @@ OhdsiRTools::insertCohortDefinitionSetInPackage(fileName = "CohortsToCreate.csv"
 # Create analysis details -------------------------------------------------
 source("extras/CreateStudyAnalysisDetails.R")
 createAnalysesDetails("inst/settings/")
+createPositiveControlSynthesisArgs("inst/settings/")
 
 # Store environment in which the study was executed -----------------------
 OhdsiRTools::insertEnvironmentSnapshotInPackage("PneumoniaRiskOfPPI")

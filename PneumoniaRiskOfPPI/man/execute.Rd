@@ -7,9 +7,11 @@
 execute(connectionDetails, cdmDatabaseSchema,
   cohortDatabaseSchema = cdmDatabaseSchema, cohortTable = "cohort",
   oracleTempSchema = cohortDatabaseSchema, outputFolder,
-  createCohorts = TRUE, synthesizePositiveControls = TRUE,
-  runAnalyses = TRUE, runDiagnostics = TRUE, packageResults = TRUE,
-  maxCores = 4, minCellCount = 5)
+  databaseId = "Unknown", databaseName = "Unknown",
+  databaseDescription = "Unknown", createCohorts = TRUE,
+  synthesizePositiveControls = TRUE, runAnalyses = TRUE,
+  runDiagnostics = TRUE, packageResults = TRUE, maxCores = 4,
+  minCellCount = 5)
 }
 \arguments{
 \item{connectionDetails}{An object of type \code{connectionDetails} as created using the
@@ -35,6 +37,14 @@ priviliges for storing temporary tables.}
 (/). Do not use a folder on a network drive since this greatly impacts
 performance.}
 
+\item{databaseId}{A short string for identifying the database (e.g.
+'Synpuf').}
+
+\item{databaseName}{The full name of the database (e.g. 'Medicare Claims
+Synthetic Public Use Files (SynPUFs)').}
+
+\item{databaseDescription}{A short description (several sentences) of the database.}
+
 \item{createCohorts}{Create the cohortTable table with the exposure and outcome cohorts?}
 
 \item{synthesizePositiveControls}{Should positive controls be synthesized?}
@@ -55,7 +65,7 @@ in packaged results.}
 Execute the Study
 }
 \details{
-This function executes the SkeletonCompartiveEffectStudy Study.
+This function executes the PneumoniaRiskOfPPI Study.
 
 The \code{createCohorts}, \code{synthesizePositiveControls}, \code{runAnalyses}, and \code{runDiagnostics} arguments
 are intended to be used to run parts of the full study at a time, but none of the parts are considerd to be optional.
