@@ -135,7 +135,8 @@ execute <- function(connectionDetails,
     predictionAnalysisList$outputFolder = outputFolder
     predictionAnalysisList$verbosity = verbosity
     
-    result <- do.call(PatientLevelPrediction::runPlpAnalyses, predictionAnalysisList)
+    result <- do.call(runPlpAnalysesWithNote, predictionAnalysisList)
+    #result <- do.call(PatientLevelPrediction::runPlpAnalyses, predictionAnalysisList)
   }
   
   if (packageResults) {
